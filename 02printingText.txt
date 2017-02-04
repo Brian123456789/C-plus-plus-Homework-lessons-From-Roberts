@@ -1,0 +1,13 @@
+#include <iostream>//header file, allows use of std::cout <<
+
+using namespace std;//built in library subroutines shortens std::cout to cout << etc
+
+int main()
+{
+    cout << "Hello world!" << endl; // without endl; it all prints out on one line.
+                                            // if you add endl; it makes a new line.
+    // << is called the stream insertion operator
+    // cout is an output object, like printf in c.
+
+    return 0;//return statement
+}

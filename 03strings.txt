@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>// to use string functions, add string include file
+//not exactly necessary if just declaring string variables like this, it will still work w/o it
+using namespace std;
+
+
+int main()
+{
+
+  cout << "text"<< endl;// when using strings add quotes
+
+
+  string s1 = "bucky" ;// you have to put bucky in qutes to be recognized as string
+   cout << s1 << endl;
+ return 0;
+
+}
